@@ -47,7 +47,7 @@ export default function RecentPage() {
               className="flex items-center bg-[#2c2c2c] rounded-lg p-4 shadow-md"
             >
               <Image
-                src={entry.track.coverImagePath}
+                src={entry.track.coverImagePath!}
                 alt={entry.track.title}
                 width={64}
                 height={64}

@@ -20,7 +20,6 @@ import {
 import {Text} from 'react-aria-components';
 import React from 'react';
 import './ShareButton.scss';
-
 import {
   OverlayArrow,
   Popover as AriaPopover,

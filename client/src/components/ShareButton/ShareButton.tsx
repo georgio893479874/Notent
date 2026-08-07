@@ -19,7 +19,6 @@ import {
 } from 'react-aria-components/Menu';
 import {Text} from 'react-aria-components';
 import React from 'react';
-// @ts-expect-error: allow side-effect CSS import without type declarations
 import './ShareButton.scss';
 
 import {

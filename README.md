@@ -1,106 +1,182 @@
-🎵 Music App
-A sleek, customizable music player built with modern design principles and user-centered features.
+<div align="center">
 
-✨ Features
-🎧 Browse & Play local audio files and integrated streaming tracks (e.g., YouTube Music, Spotify APIs).
+<img src="./assets/banner.webp" width="100%" style="border-radius: 10px"/>
 
-📱 Intuitive UI: minimalistic, elegant dark/light themes with smooth transitions.
+# 🎵 Notent
 
-🛠️ Playback Controls: play, pause, skip, shuffle, repeat, queue management.
+### Stream music. Discover artists. Feel every moment.
 
-📁 Library Management: categorize by artist, album, genre, and playlists.
+A modern full-stack music streaming platform built with **Next.js**, **NestJS**, and **TypeScript**.
 
-🕒 Advanced Features: synchronized lyrics (LRC support), audio normalization, sleep timer, pitch/tempo adjustments.
+<br />
 
-🌐 Cross-Platform Ready: scalable for Android, iOS, and Web targets.
+[![Next.js](https://img.shields.io/badge/Next.js-16.3.0-black?style=for-the-badge&logo=next.js)]()
+[![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black)]()
+[![NestJS](https://img.shields.io/badge/NestJS-10-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)]()
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript&logoColor=white)]()
 
-📸 Screenshots
-<!-- Replace paths below with your actual screenshot files -->
+</div>
 
-🚀 Getting Started
-Prerequisites
-Node.js (>=14) or appropriate SDK for your tech stack
+---
 
-Android Studio / Xcode (if building for mobile)
+## ✨ About Notent
 
-Git
+**Notent** is a modern full-stack music streaming platform designed for discovering, listening to, and enjoying music.
 
-Setup
-bash
-Копіювати
-Редагувати
-git clone https://github.com/georgio893479874/music-app.git
-cd music-app
-npm install
-Running Locally
-Web: npm run dev → opens at http://localhost:3000
+The application provides a clean and responsive interface for exploring songs, albums, artists, genres, and playlists. Users can manage their music library, save favorite tracks, upload music, and interact with the platform through a modern authentication system.
 
-Mobile (React Native / Flutter):
+The project consists of two main applications:
 
-bash
-Копіювати
-Редагувати
-npm run android
-npm run ios
-🧩 Architecture
-Frontend: [React Native / Flutter / Web framework] — implement UI and state management.
+- 🎨 **Client** — Next.js frontend
+- ⚙️ **Server** — NestJS backend
 
-Audio Engine: [wavesurfer.js / native audio libs] for playback, visualization, waveform rendering 
-uizard.io
-+2
-uxplanet.org
-+2
-pinterest.com
-+2
-in.pinterest.com
-+2
-github.com
-+2
-github.com
-+2
-github.com
-github.com
-+2
-uizard.io
-+2
-github.com
-+2
-github.com
-.
+---
 
-Storage: local DB (AsyncStorage, Hive, SQLite) for library, playlists, app settings.
+## 🚀 Features
 
-Streaming API: integrate with YouTube Music or Spotify SDKs for streaming and caching tracks.
+### 🎧 Music Experience
 
-🌐 Roadmap
-Milestone	Status
-Basic Playback & UI	✅ Completed
-Lyrics Sync & Visualization	⚙️ In Progress
-Playlist & Queue Systems	🟧 In Development
-[Future] Offline Mode, Audio Effects, Custom Themes	🔜 Upcoming
+- Explore music
+- Browse albums
+- Discover artists
+- Browse genres
+- Listen to tracks
+- Music player with playback controls
+- Search for songs, albums, and artists
+- Recently played tracks
 
-🤝 Contributing
-Contributions are welcome! To get started:
+### 📚 Music Library
 
-Fork the repo
+- Recently played music
+- Personal playlists
+- Favorite tracks
+- Local music
+- Album collections
 
-Create a feature branch:
+### ❤️ Personalization
 
-bash
-Копіювати
-Редагувати
-git checkout -b feature/awesome-new-feature
-Commit changes with descriptive messages
+- Add songs to favorites
+- Create and manage playlists
+- Personalized music library
+- Track listening activity
 
-Push to your branch and open a Pull Request
+### 👤 Authentication
 
-Please follow the existing coding style and include tests when applicable.
+- User registration
+- User login
+- JWT authentication
+- Google authentication
+- Facebook authentication
+- Account management
 
-📝 License
-This project is licensed under the MIT License.
+### ☁️ Music Management
 
-📞 Contact
-Built by @georgio893479874.
-Found a bug or have an idea? Please open an issue.
-Follow me on GitHub or reach out for collaboration!
+- Upload tracks
+- Upload and manage media
+- Cloudinary integration
+- Music search
+- Track metadata management
 
+### 🎨 User Interface
+
+- Modern dark interface
+- Responsive design
+- Desktop and mobile support
+- Animated UI elements
+- Interactive components
+- Notifications and toast messages
+
+---
+
+# 🛠 Tech Stack
+
+## 🎨 Frontend
+
+The client application is built with modern React technologies.
+
+| Technology | Description |
+|---|---|
+| **Next.js 16** | React framework |
+| **React 19** | UI library |
+| **TypeScript** | Type-safe JavaScript |
+| **Material UI** | UI component library |
+| **Headless UI** | Accessible UI components |
+| **HeroUI** | UI components and theming |
+| **Tailwind CSS** | Utility-first CSS |
+| **Sass** | CSS preprocessor |
+| **Framer Motion** | Animations |
+| **Axios** | HTTP client |
+| **Formik** | Form management |
+| **Yup** | Form validation |
+| **Lucide React** | Icons |
+| **React Icons** | Icon library |
+| **React Slick** | Sliders and carousels |
+| **React Swipeable** | Swipe interactions |
+| **React Hot Toast** | Notifications |
+| **WaveSurfer.js** | Audio waveform visualization |
+| **Next Cloudinary** | Cloudinary integration |
+
+---
+
+## ⚙️ Backend
+
+The server application is built with NestJS.
+
+| Technology | Description |
+|---|---|
+| **NestJS 10** | Backend framework |
+| **TypeScript** | Main programming language |
+| **Prisma** | Database ORM |
+| **Passport** | Authentication middleware |
+| **JWT** | Authentication |
+| **Argon2** | Password hashing |
+| **bcryptjs** | Password hashing |
+| **Redis** | Caching and session storage |
+| **ioredis** | Redis client |
+| **Express Session** | Session management |
+| **Cloudinary** | Media storage |
+| **Multer** | File uploads |
+| **Class Validator** | Request validation |
+| **Class Transformer** | Data transformation |
+| **Swagger** | API documentation |
+| **Nest Schedule** | Scheduled tasks |
+| **Passport Google OAuth** | Google authentication |
+| **Passport Facebook** | Facebook authentication |
+| **Passport JWT** | JWT authentication |
+
+---
+
+# 🎵 Project Structure
+
+```text
+Notent/
+│
+├── client/
+│   │
+│   ├── app/                # Next.js application
+│   ├── components/         # Reusable UI components
+│   ├── public/             # Static files
+│   ├── styles/             # Application styles
+│   │
+│   ├── package.json
+│   └── next.config.*
+│
+├── server/
+│   │
+│   ├── src/
+│   │   ├── modules/        # Application modules
+│   │   ├── auth/           # Authentication
+│   │   ├── users/          # User functionality
+│   │   ├── music/          # Music functionality
+│   │   └── main.ts         # Application entry point
+│   │
+│   ├── prisma/             # Prisma configuration
+│   ├── package.json
+│   └── nest-cli.json
+│
+├── assets/
+│   └── banner.png          # README banner
+│
+├── package.json
+│
+└── README.md
